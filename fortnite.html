@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=fortnite.js defer></script>
+
+    <style>
+    body {
+    background-color: burlywood;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: saddleBrown;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#luckDiv,
+#playersDiv {
+    background-color: sienna;
+    width: 500px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#luckResult {
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#playersResult {
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+</style>
+
+</head>
+<body>
+    <h1> Fortnite Pirate token</h1>
+
+    <div id="luckDiv">
+        <h2>After how many chests will you find the Pirate Token?</h2>
+        <p>The token has a 1 in 137,500 chance per chest.</p>
+        <button id="luckBtn">Test your luck</button>
+        <p id="luckResult"></p>
+    </div>
+
+    <div id="playersDiv">
+        <h2>How many players does it take to find the token?</h2>
+        <p>Each player opens 2000 chests.</p>
+        <button id=playersBtn>Simulate players</button>
+        <p id="playersResult"></p>
+    </div>
+    
+</body>
+</html>
