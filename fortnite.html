@@ -71,14 +71,19 @@ button:hover {
         <p>The token has a 1 in 137,500 chance per chest.</p>
         <button id="luckBtn">Test your luck</button>
         <p id="luckResult"></p>
+        <p id="smallest"></p>
+
     </div>
 
     <div id="playersDiv">
         <h2>How many players does it take to find the token?</h2>
-        <p>Each player opens 2000 chests.</p>
-        <button id=playersBtn>Simulate players</button>
+        <p>Each player opens x chests.</p>
+            <label>Chest amount</label>
+            <input type="number" id="chestAmount" placeholder="x">
+            <button id=playersBtn>Simulate players</button>
         <p id="playersResult"></p>
     </div>
+
     
 </body>
 </html>
